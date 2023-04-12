@@ -10,7 +10,7 @@ let image = require('./routes/image');
 // Initializing the app
 const app = express();
 // connecting the database
-let mongodb_url = 'mongodb+srv://toloih:12345@darkroom.ylwfk0a.mongodb.net/?retryWrites=true&w=majority';
+let mongodb_url = 'mongodb+srv://toloih:76392923@htcluster.ltzaolu.mongodb.net/test';
 let dbName = 'darkroom';
 mongoose.connect(`${mongodb_url}${dbName}`,{ useNewUrlParser: true , useUnifiedTopology: true }, (err)=>{
     if (err) console.log(err)
