@@ -38,7 +38,7 @@ pipeline {
         }
         stage('Clone github repository') {
             steps {
-                git url: 'https://github.com/', branch: 'master'
+                git url: 'https://github.com/htoloi/Gallerywk6.git', branch: 'master'
             }
         }
         stage('Install dependencies') {
